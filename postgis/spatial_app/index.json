@@ -1,0 +1,42 @@
+{
+"title": "Cloud Native Spatial Applicaitons",
+"description": "Creating a web spatial application with PostGIS, pg_featureserv, and pg_tileserv.",
+"difficulty": "intermidiate",
+"time": "15 minutes",
+"details": {
+  "steps": [
+    {"title": "Adding pg_featureserv", "text": "01-pg_featureserv.md"},
+    {"title": "Adding pg_tileserv", "text": "02-pg_tileserv.md"},
+    {"title": "Adding our user facing application", "text": "03-adding_a_frontend_UI.md"}
+    {"title": "Adding User-defined Functions", "text": "03-user_defined_functions.md"}
+  ],
+  "intro": {
+    "courseData": "env-init.sh",
+    "code": "set-env.sh",
+    "text": "intro.md",
+    "credits": ""
+  },
+  "finish": {
+    "text": "finish.md"
+  },
+  "assets": {
+    "client": [
+    ]
+  }
+},
+"environment": {
+  "hideintro": false,
+  "showdashboard": true,
+  "dashboards": [
+      {"name": "pg_tileserv", "port": 7800},
+      {"name": "pg_featureserv", "port": 9000},
+      {"name": "Santa Cruz Fire App", "port": 5000}],
+  "terminals": [
+        {"name": "Terminal 2", "target": "host01"},
+        {"name": "Terminal 3", "target": "host01"}],
+  "uilayout": "terminal-iframe"
+},
+"backend": {
+  "imageid": "crunchydata-single1"
+  }
+}
