@@ -14,7 +14,7 @@ Here are the details on the database we are connecting to:
 
 1. Username: groot
 2. Password: password (same password for the postgres user as well)
-3. A database named: nyc
+3. A database named: firedata
 
 And with that, let's dig in.
 

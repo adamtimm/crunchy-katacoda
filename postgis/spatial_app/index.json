@@ -30,7 +30,7 @@
   "dashboards": [
       {"name": "pg_tileserv", "port": 7800},
       {"name": "pg_featureserv", "port": 9000},
-      {"name": "Santa Cruz Fire App", "port": 5000}],
+      {"name": "Santa Cruz Fire App", "href": "https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com"}],
   "terminals": [
         {"name": "Terminal 2", "target": "host01"},
         {"name": "Terminal 3", "target": "host01"}],
