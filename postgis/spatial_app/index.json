@@ -7,8 +7,8 @@
   "steps": [
     {"title": "Adding pg_featureserv", "text": "01-pg_featureserv.md"},
     {"title": "Adding pg_tileserv", "text": "02-pg_tileserv.md"},
-    {"title": "Adding our user facing application", "text": "03-adding_a_frontend_UI.md"}
-    {"title": "Adding User-defined Functions", "text": "03-user_defined_functions.md"}
+    {"title": "Adding our user facing application", "text": "03-adding_a_frontend_UI.md"},
+    {"title": "Adding User-defined Functions", "text": "04-user_defined_functions.md"}
   ],
   "intro": {
     "courseData": "env-init.sh",
