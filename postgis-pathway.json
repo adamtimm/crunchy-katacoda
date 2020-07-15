@@ -56,6 +56,11 @@
       "external_link": "https://learn.crunchydata.com/postgis/pg_tileserv/",
       "course_id": "pg_tileserv",
       "title": "10 - Creating Dynamic Vector Tiles with pg_tileserv"
+    },{
+      "action" : "Start Scenario",
+      "external_link": "https://learn.crunchydata.com/postgis/spatial_app/",
+      "course_id": "spatial_app",
+      "title": "11 - Cloud Native Spatial Applicaitons"
     }
   ]
 }
