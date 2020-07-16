@@ -12,7 +12,7 @@ until PGPASSWORD="password" psql -h localhost -U groot postgres -c '\l' &> /dev/
 done
 
 echo 'loading data'
-curl https://app.box.com/s/e6ubh3dw1k8yhp76v3i9rnvxymse0uxl |gzip -dc | PGPASSWORD="root" psql -h localhost -U postgres -d firedata
+curl https://datatransfer.imfast.io/scfire.dump.sql | PGPASSWORD="root" psql -h localhost -U postgres -d firedata
 
 clear
 : 'Ready to go'
