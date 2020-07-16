@@ -30,10 +30,12 @@
   "dashboards": [
       {"name": "pg_tileserv", "port": 7800},
       {"name": "pg_featureserv", "href": "https://[[HOST_SUBDOMAIN]]-9000-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "mapserver", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com"},
       {"name": "Santa Cruz Fire App", "href": "https://[[HOST_SUBDOMAIN]]-5000-[[KATACODA_HOST]].environments.katacoda.com"}],
   "terminals": [
-        {"name": "Terminal 2", "target": "host01"},
-        {"name": "Terminal 3", "target": "host01"}],
+        {"name": "pg_tileeserv terminal", "target": "host01"},
+        {"name": "mapserver terminal", "target": "host01"},
+        {"name": "UI terminal", "target": "host01"}],
   "uilayout": "terminal-iframe"
 },
 "backend": {
